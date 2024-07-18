@@ -7,7 +7,6 @@ class SmsText extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      // ignore: prefer_const_literals_to_create_immutables
       children: [
         Text(
           'Masukkan Nomor Ponsel',

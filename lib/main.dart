@@ -24,6 +24,8 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //TODO(zakki): I added this code for responsive.
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         leading: const BackButtonIcon(),
         title: const Text("Masuk"),

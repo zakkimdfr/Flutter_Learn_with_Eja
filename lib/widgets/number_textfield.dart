@@ -53,7 +53,7 @@ class _NumberTextFieldState extends State<NumberTextfield> {
               ),
             ),
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           SendButton(
             isEnabled: _isButtonEnabled,
             onPressed: _onButtonPressed,
